@@ -1,5 +1,10 @@
 import ReactBasicsImage from '../images/ReactBasics.png'
 import AdvancedReact from '../images/AdvancedReact.png'
+import LittleLemon from '../images/LittleLemon.png'
+import CryptoTweet from '../images/CryptoTweet.png'
+import Ecommerce from '../images/Ecommerce.png'
+
+
 
 export const Bio = {
   name: "Vinay Jagannavar",
@@ -289,15 +294,14 @@ export const education = [
 
 export const projects = [
   {
-    id: 9,
+    id: 0,
     title: "Little Lemon Website",
     date: "Mar 2023",
     description:
       `• Developed the 'Reserve a Table' feature for the Little Lemon Website using React, effectively managing state with hooks such as useState. 
       • Implemented advanced form handling methods, including controlled and uncontrolled components, alongside the useRef hook, to optimize the booking process.
       • Performed thorough unit testing with Jest, guaranteeing the functionality and dependability of components.`,
-    image:
-      "https://user-images.githubusercontent.com/64485885/255202416-e1f89b04-2788-45b0-abc2-9dec616669e2.png",
+    image: LittleLemon,
     tags: [
       "React JS",
       "JavaScript(ES6+)",
@@ -313,13 +317,36 @@ export const projects = [
     webapp: "https://github.com/vinayjagannavar/LittleLemon",
   },
   {
+    id: 1,
+    title: "Ecommerce Shopping",
+    date: "Mar 2023",
+    description:
+      `•	Pioneered RESTful API implementation with Spring Boot for seamless frontend-backend communication, while enforcing Spring Security and employing MySQL for efficient backend management.
+      •	Orchestrated frontend development leveraging React, integrating Tailwind CSS and Material-UI (MUI) for UI design, Redux for state management, and JWT for secure authentication.
+      `,
+    image: Ecommerce,
+    tags: [
+      "React JS",
+      "Redux",
+      "Java",
+      "JSON Web Tokens",
+      "Spring Boot",
+      "Spring Security",
+      "Tailwind CSS",
+      "Material-UI",
+      "MySQL"
+    ],
+    category: "web app",
+    github: "https://github.com/vinayjagannavar/Ecommerce-Shopping-Backend",
+    webapp: "",
+  },
+  {
     id: 2,
     title: "Crypto Tweet Sentiment Analysis",
     date: "March 2023 - April 2023",
     description:
       "Extracted actionable cryptocurrency market insights through large-scale NLP analysis (preprocessing, tokenization) of over 100k tweets, incorporating BERT models (FinBERT & CryptoBERT) for accurate sentiment classification.",
-    image:
-      "https://github.com/rishavchanda/Brain-Tumor-Detection/raw/main/Readme_resource/Image2.png",
+    image: CryptoTweet,
     tags: ["Python", "NLP", "Pandas", "Numpy", "TensorFlow", "Keras","Seaborn"],
     category: "machine learning",
     github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
@@ -334,7 +361,7 @@ export const projects = [
       • Facilitated secure payment processing via PayPal integration, championed the use of GitHub for version control (reducing merge conflicts by 30%), fostering a collaborative development workflow.
       `,
     image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
+      "https://raw.githubusercontent.com/vinayjagannavar/BillBuddy/main/Screenshot%202024-03-31%20234421.png",
     tags: ["Kotlin", "MVVM", "Room Database", "AWS Gateway API", "AWS RDS"],
     category: "android app",
     github: "https://github.com/vinayjagannavar/BillBuddy",
@@ -349,7 +376,7 @@ export const projects = [
       • Upgraded tree search with a neural network trained on game state data and projected utility values for each level.
       `,
     image:
-      "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
+      "https://raw.githubusercontent.com/vinayjagannavar/2048-Expectimax-AI-Game/main/AIscores.png",
     tags: ["Python", "PyTorch", "MatplotLib", "NumPy", "AI Algorithm"],
     category: "machine learning",
     github: "https://github.com/vinayjagannavar/2048-Expectimax-AI-Game",
