@@ -3,6 +3,7 @@ import AdvancedReact from '../images/AdvancedReact.png'
 import LittleLemon from '../images/LittleLemon.png'
 import CryptoTweet from '../images/CryptoTweet.png'
 import Ecommerce from '../images/Ecommerce.png'
+import FrontEndCertificate from '../images/FrontEndCertificate.png'
 
 
 
@@ -385,6 +386,13 @@ export const projects = [
 ];
 
 export const certifications = [
+  {
+    id: "1",
+    name: "Meta Front-End Developer Professional Certificate",
+    image: FrontEndCertificate,
+    description: "- Coursera",
+    certificateURL: "https://www.coursera.org/account/accomplishments/professional-cert/ANAK6V7KVQS8"
+  },
   {
     id: "1",
     name: "React Basic",
