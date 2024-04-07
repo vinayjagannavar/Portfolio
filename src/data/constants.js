@@ -339,7 +339,7 @@ export const projects = [
     ],
     category: "web app",
     github: "https://github.com/vinayjagannavar/Ecommerce-Shopping-Backend",
-    webapp: "",
+    webapp: "https://clothcrafters.vercel.app/",
   },
   {
     id: 2,
