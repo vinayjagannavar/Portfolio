@@ -100,7 +100,7 @@ const Certifications = () => {
     <Container id="certifications">
       <Wrapper>
         <Title>Certifications</Title>
-        <Desc>Here are some of my certifications acquired over time.</Desc>
+        <Desc>My quest for knowledge doesn't stop at a degree! Here are some certifications I've added to my skillset over time.</Desc>
         <CertificationsContainer>
           {certifications.map((certification) => (
             <Certification key={certification.id}>

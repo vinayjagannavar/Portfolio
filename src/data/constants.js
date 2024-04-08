@@ -11,19 +11,18 @@ export const Bio = {
   name: "Vinay Jagannavar",
   roles: [
     "Full Stack Developer",
-    "Java Developer",
-    "Android Developer"
+    "Android Developer",
+    "Data Scientist"
   ],
   description:
-    "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
+    "I bring ideas to life with code.  I'm a passionate software developer who thrives on tackling challenges and creating clean, efficient solutions. My love for learning fuels my expertise in new technologies, and I'm constantly seeking ways to craft amazing things. Let's collaborate and build something truly remarkable!",
   github: "https://github.com/vinayjagannavar",
   resume:
     "https://drive.google.com/file/d/1Z_qtJYqdUK6m68EemH70vG9PTh-lu3HA/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vinay-jagannavar-6a0217124",
-  //twitter: "https://twitter.com/RishavChanda",
   insta: "https://www.instagram.com/vinay_jagannavar/",
-  //facebook: "https://www.facebook.com/rishav.chanda.165/",
-  phone: "+13156037616"
+  phone: "+13156037616",
+  leetcode: "https://leetcode.com/vinay_jagannavar"
 };
 
 export const skills = [
@@ -46,7 +45,7 @@ export const skills = [
           "https://upload.wikimedia.org/wikipedia/commons/c/cf/Angular_full_color_logo.svg",
       },
       {
-        name: "HTML",
+        name: "HTML5",
         image: "https://www.w3.org/html/logo/badge/html5-badge-h-solo.png",
       },
       {
@@ -59,11 +58,11 @@ export const skills = [
         image:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png",
       },
-      /*{
-        name: "Bootstrap",
+      {
+        name: "Tailwind CSS",
         image:
-          "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
-      },*/
+          "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_tailwind_icon_130128.png",
+      },
       {
         name: "Material UI",
         image:
@@ -74,6 +73,11 @@ export const skills = [
         image:
           "https://cdn-images-1.medium.com/max/1200/1*5-aoK8IBmXve5whBQM90GA.png",
       },
+      {
+        name: "Figma",
+        image:
+          "https://www.liblogo.com/img-logo/fi441f906-figma-logo-figma-logo-png-transparent-amp-svg-vector-freebie-supply.png",
+      }
     ],
   },
   {
@@ -103,23 +107,41 @@ export const skills = [
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
       },
       {
-        name: "MySQL",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+        name: "Spring Boot",
+        image:"https://dz2cdn1.dzone.com/storage/temp/12434118-spring-boot-logo.png",
       },
       {
-        name: "Postgresql",
-        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+        name: "Spring Security",
+        image:"https://img.stackshare.io/service/6656/com.castsoftware.springsecurity.png",
       },
       {
-        name: "MongoDB",
-        image:
-          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+        name: ".NET",
+        image:"https://www.vhv.rs/dpng/d/610-6101227_-net-core-logo-png-transparent-png.png",
+      },
+      {
+        name: "PyTorch",
+        image:"https://pytorch.org/assets/images/pytorch-logo.png",
+      },
+      {
+        name: "TensorFlow",
+        image:"https://i1.wp.com/albertfattal.com/wp-content/uploads/2018/03/Tensorflow_logo.svg.png?resize=1200%2C1283&ssl=1",
+      },
+      {
+        name: "C",
+        image: "https://th.bing.com/th/id/OIP.-wK8kSbegCP7kdE8hVjRCQAAAA?rs=1&pid=ImgDetMain",
+      },
+      {
+        name: "C++",
+        image: "https://th.bing.com/th/id/OIP.gjzpE3MhNBoZx3LrHA5-9wHaER?rs=1&pid=ImgDetMain",
+      },
+      {
+        name: "C#",
+        image: "https://e7.pngegg.com/pngimages/520/669/png-clipart-c-logo-c-programming-language-computer-icons-computer-programming-programming-miscellaneous-blue.png",
       },
       {
         name: "Firebase",
         image: "https://www.vectorlogo.zone/logos/firebase/firebase-icon.svg",
-      },
+      }
     ],
   },
   {
@@ -144,7 +166,54 @@ export const skills = [
         name: "Android Studio",
         image:
           "https://developer.android.com/static/studio/images/new-studio-logo-1_1920.png",
+      }
+    ],
+  },
+  {
+    title: "Cloud",
+    skills: [
+      {
+        name: "Amazon Web Services",
+        image:"data:image/png;base64,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",
       },
+      {
+        name: "Microsoft Azure DevOps Services",
+        image:
+          "https://seeklogo.com/images/A/azure-devops-logo-E7364216A7-seeklogo.com.png",
+      },
+      {
+        name: "Docker",
+        image:
+          "https://iconape.com/wp-content/files/cr/55190/png/docker.png",
+      },
+      {
+        name: "Kubernetes",
+        image:"https://th.bing.com/th/id/R.ea798a7abf761b1b7b965a9f16eee1a6?rik=aC4g1T9IpqNckw&riu=http%3a%2f%2fassets.stickpng.com%2fimages%2f58480a44cef1014c0b5e4917.png&ehk=KPnoo5nTF29FI5rf23YFWnTfRzUkinLBnE6D0A8u730%3d&risl=&pid=ImgRaw&r=0",
+      }
+    ]
+  },
+  {
+    title: "Databases",
+    skills: [
+      {
+        name: "MySQL",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+      },
+      {
+        name: "Postgresql",
+        image: "https://www.postgresql.org/media/img/about/press/elephant.png",
+      },
+      {
+        name: "MongoDB",
+        image:
+          "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original-wordmark.svg",
+      },
+      {
+        name: "NoSQL",
+        image:
+          "https://th.bing.com/th/id/R.49ba9d9a8aea508fbb1a224177049182?rik=6%2bwdPMdfCzZgaA&riu=http%3a%2f%2fwww.kingswaysoft.com%2fFrontend%2fImages%2fssis-component-icons%2fssis-productivity-pack-icons%2fnosql-icon.png&ehk=IxgZibjryFhUNOsPTyKS8IK%2fipsKFwrn69qEmeCDd2U%3d&risl=&pid=ImgRaw&r=0",
+      }
     ],
   },
   {
@@ -153,18 +222,22 @@ export const skills = [
       {
         name: "Git",
         image:
-          "https://camo.githubusercontent.com/fbfcb9e3dc648adc93bef37c718db16c52f617ad055a26de6dc3c21865c3321d/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6769742d73636d2f6769742d73636d2d69636f6e2e737667",
+          "https://th.bing.com/th/id/OIP.DPbpk1NuTZpPOUyILogxogHaHk?rs=1&pid=ImgDetMain",
       },
       {
         name: "GitHub",
         image:
-          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+          "https://pngimg.com/uploads/github/github_PNG67.png",
       },
       {
         name: "Docker",
         image:
           "https://raw.githubusercontent.com/devicons/devicon/master/icons/docker/docker-original-wordmark.svg",
-      },
+      },{
+        name: "Siebel CRM",
+        image:
+          "https://th.bing.com/th/id/OIP.BEJgnZK66Uv7x73R92bLRwHaDW?rs=1&pid=ImgDetMain",
+      },     
       {
         name: "Netlify",
         image:
@@ -178,18 +251,17 @@ export const skills = [
       {
         name: "Postman",
         image:
-          "https://camo.githubusercontent.com/93b32389bf746009ca2370de7fe06c3b5146f4c99d99df65994f9ced0ba41685/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f676574706f73746d616e2f676574706f73746d616e2d69636f6e2e737667",
+          "https://www.svgrepo.com/show/354202/postman-icon.svg",
       },
       {
-        name: "Adobe XD",
+        name: "Splunk",
         image:
-          "https://camo.githubusercontent.com/c205ecbe12500177d102169d97bc1c17c545155fdf5ec78c08d54ac53e5b38c1/68747470733a2f2f63646e2e776f726c64766563746f726c6f676f2e636f6d2f6c6f676f732f61646f62652d78642e737667",
-      },
-      {
-        name: "Figma",
+          "https://www.logolynx.com/images/logolynx/b4/b488ffd251ebf4fcdd8d2ab1be453989.png",
+      },{
+        name: "UiPath",
         image:
-          "https://camo.githubusercontent.com/ed93c2b000a76ceaad1503e7eb9356591b885227e82a36a005b9d3498b303ba5/68747470733a2f2f7777772e766563746f726c6f676f2e7a6f6e652f6c6f676f732f6669676d612f6669676d612d69636f6e2e737667",
-      },
+          "https://companieslogo.com/img/orig/PATH-4f96bcbf.png?t=1649160715",
+      }
     ],
   },
 ];
@@ -276,7 +348,7 @@ export const education = [
   {
     id: 0,
     img: "https://imageio.forbes.com/specials-images/imageserve/5d52cca168cb0a000916d49b/0x0.jpg?format=jpg&crop=416,416,x0,y0,safe&height=87&width=87",
-    school: "Syracuse University, Syracuse, NY",
+    school: "Syracuse University, NY, US",
     date: "August 2022 - May 2024",
     grade: "3.78 GPA",
     desc: "Courses: Design and Analysis of Algorithms, Structured Programming and Formal Methods, Operating System, Computer Architecture, Artificial Intelligence, Machine Learning, Natural Language Processing, Android Programming, Social Media and Data Mining.",
@@ -285,7 +357,7 @@ export const education = [
   {
     id: 1,
     img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5C74v3rfUB0RbnoE2fR2leNmsmhlHQF2ZqyWXcX7A9w&s",
-    school: "University Of Pune, Pune, India",
+    school: "University Of Pune, India",
     date: "July 2013 - May 2017",
     grade: "3.4 GPA",
     desc: "Courses: Data Structures and Algorithms, Object Oriented Design, Database Management Systems, Theory Of Computations.",
@@ -295,9 +367,9 @@ export const education = [
 
 export const projects = [
   {
-    id: 0,
+    id: 3,
     title: "Little Lemon Website",
-    date: "Mar 2023",
+    date: "Mar 2024",
     description:
       `• Developed the 'Reserve a Table' feature for the Little Lemon Website using React, effectively managing state with hooks such as useState. 
       • Implemented advanced form handling methods, including controlled and uncontrolled components, alongside the useRef hook, to optimize the booking process.
@@ -318,9 +390,9 @@ export const projects = [
     webapp: "https://github.com/vinayjagannavar/LittleLemon",
   },
   {
-    id: 1,
+    id: 0,
     title: "Ecommerce Shopping",
-    date: "Mar 2023",
+    date: "May 2023 - July 2023",
     description:
       `•	Pioneered RESTful API implementation with Spring Boot for seamless frontend-backend communication, while enforcing Spring Security and employing MySQL for efficient backend management.
       •	Orchestrated frontend development leveraging React, integrating Tailwind CSS and Material-UI (MUI) for UI design, Redux for state management, and JWT for secure authentication.
@@ -342,7 +414,7 @@ export const projects = [
     webapp: "https://clothcrafters.vercel.app/",
   },
   {
-    id: 2,
+    id: 4,
     title: "Crypto Tweet Sentiment Analysis",
     date: "March 2023 - April 2023",
     description:
@@ -354,7 +426,7 @@ export const projects = [
     webapp: "https://brain-tumor.netlify.app/",
   },
   {
-    id: 3,
+    id: 1,
     title: "BillBuddy",
     date: "September 2023 - December 2023",
     description:
@@ -369,7 +441,7 @@ export const projects = [
     webapp: "https://github.com/vinayjagannavar/BillBuddy",
   },
   {
-    id: 8,
+    id: 2,
     title: "AI-based 2048 Game",
     date: "September 2022 - December 2022",
     description:
@@ -408,12 +480,4 @@ export const certifications = [
     certificateURL: "https://www.coursera.org/account/accomplishments/verify/T63G2N5BHWDZ"
   },
   // Add more certifications as needed
-];
-
-export const TimeLineData = [
-  { year: 2017, text: "Started my journey" },
-  { year: 2018, text: "Worked as a freelance developer" },
-  { year: 2019, text: "Founded JavaScript Mastery" },
-  { year: 2020, text: "Shared my projects with the world" },
-  { year: 2021, text: "Started my own platform" },
 ];

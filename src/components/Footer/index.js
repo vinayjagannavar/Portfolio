@@ -3,6 +3,7 @@ import LinkedInIcon from '@mui/icons-material/LinkedIn';
 import InstagramIcon from '@mui/icons-material/Instagram';
 import { Bio } from '../../data/constants';
 import { Phone } from '@mui/icons-material';
+import Leetcode from '../../images/Leetcode.png'
 
 const FooterContainer = styled.div`
   width: 100%;
@@ -100,6 +101,7 @@ function Footer() {
           <SocialMediaIcon href={Bio.phone} target="display"><Phone /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.linkedin} target="display"><LinkedInIcon /></SocialMediaIcon>
           <SocialMediaIcon href={Bio.insta} target="display"><InstagramIcon /></SocialMediaIcon>
+          <SocialMediaIcon href={Bio.leetcode} target="display"><img src={Leetcode} alt="LeetCode" /></SocialMediaIcon>
         </SocialMediaIcons>
         <Copyright>
           &copy; 2023 Vinay Jagannavar. All rights reserved.
