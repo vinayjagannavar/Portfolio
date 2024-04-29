@@ -455,6 +455,20 @@ export const projects = [
     github: "https://github.com/vinayjagannavar/2048-Expectimax-AI-Game",
     webapp: "https://github.com/vinayjagannavar/2048-Expectimax-AI-Game",
   },
+  {
+    id: 5,
+    title: "Stock Price Prediction using GAN and ARIMA",
+    date: "March 2024 - April 2024",
+    description:
+      `• This project analyzes the impact of Twitter sentiments on Google's stock prices using Afinn and Vader for sentiment analysis and integrates predictive modeling techniques, GANs and ARIMA, with Yahoo Finance data to forecast stock trends. The analysis provides insights into how public perceptions influence financial markets, serving as a bridge between social media sentiment and economic indicators.
+      `,
+    image:
+      "https://raw.githubusercontent.com/vinayjagannavar/Stock-Price-Prediction-GAN-ARIMA/main/GANvsARIMA.png",
+    tags: ["Python", "TensorFlow", "Pandas", "Numpy", "MatplotLib", "Seaborn"],
+    category: "machine learning",
+    github: "https://github.com/vinayjagannavar/Stock-Price-Prediction-GAN-ARIMA",
+    webapp: "https://github.com/vinayjagannavar/Stock-Price-Prediction-GAN-ARIMA",
+  },
 ];
 
 export const certifications = [
