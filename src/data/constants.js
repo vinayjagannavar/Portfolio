@@ -4,6 +4,7 @@ import LittleLemon from '../images/LittleLemon.png'
 import CryptoTweet from '../images/CryptoTweet.png'
 import Ecommerce from '../images/Ecommerce.png'
 import FrontEndCertificate from '../images/FrontEndCertificate.png'
+import Django from '../images/Django.png'
 
 
 
@@ -492,6 +493,13 @@ export const certifications = [
     image: AdvancedReact,
     description: "- Coursera",
     certificateURL: "https://www.coursera.org/account/accomplishments/verify/T63G2N5BHWDZ"
+  },
+  {
+    id: "3",
+    name: "Django Web Framework",
+    image: Django,
+    description: "- Coursera",
+    certificateURL: "https://coursera.org/share/586b32cac632cbda7f286d5ebded0a65"
   },
   // Add more certifications as needed
 ];
