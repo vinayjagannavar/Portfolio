@@ -20,7 +20,7 @@ export const Bio = {
     "I bring ideas to life with code.  I'm a passionate software developer who thrives on tackling challenges and creating clean, efficient solutions. My love for learning fuels my expertise in new technologies, and I'm constantly seeking ways to craft amazing things. Let's collaborate and build something truly remarkable!",
   github: "https://github.com/vinayjagannavar",
   resume:
-    "https://drive.google.com/file/d/1ArTPHoGUAGLDvges3rJXEmXM1HeyY2N4/view?usp=sharing",
+    "https://drive.google.com/file/d/1OiqYVRbh66M5u-aAMhn4bKuicU__CKof/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vinay-jagannavar-6a0217124",
   insta: "https://www.instagram.com/vinay_jagannavar/",
   phone: "+13156037616",
@@ -272,7 +272,7 @@ export const experiences = [
   {
     id: 0,
     img: "https://download.logo.wine/logo/Tech_Mahindra/Tech_Mahindra-Logo.wine.png",
-    role: "Software Engineer",
+    role: "Full Stack Developer",
     company: "Tech Mahindra Limited",
     date: "September 2020 - July 2022",
     desc: `• Accelerated project delivery by 40% through mastery of Scrum Agile methodologies, while streamlining software development in Azure DevOps, achieving 50% faster development via CI/CD pipelines and enhancing client satisfaction.<br />
@@ -302,7 +302,7 @@ export const experiences = [
   {
     id: 1,
     img: "https://download.logo.wine/logo/Tech_Mahindra/Tech_Mahindra-Logo.wine.png",
-    role: "Associate Software Engineer",
+    role: "Software Engineer",
     company: "Tech Mahindra Limited",
     date: "April 2018 - August 2020",
     desc: `•	Demonstrated Telecom Domain expertise in Siebel CRM, Fusion Middleware, and Oracle BRM.<br />
@@ -352,7 +352,7 @@ export const education = [
     img: "https://imageio.forbes.com/specials-images/imageserve/5d52cca168cb0a000916d49b/0x0.jpg?format=jpg&crop=416,416,x0,y0,safe&height=87&width=87",
     school: "Syracuse University, NY, US",
     date: "August 2022 - May 2024",
-    grade: "3.78 GPA",
+    grade: "3.8 GPA",
     desc: "Courses: Design and Analysis of Algorithms, Structured Programming and Formal Methods, Operating System, Computer Architecture, Artificial Intelligence, Machine Learning, Natural Language Processing, Android Programming, Social Media and Data Mining.",
     degree: "Masters Of Science - Computer Science",
   },
@@ -394,7 +394,7 @@ export const projects = [
   {
     id: 0,
     title: "Ecommerce Shopping",
-    date: "May 2023 - July 2023",
+    date: "January 2024 - March 2024",
     description:
       `•	Pioneered RESTful API implementation with Spring Boot for seamless frontend-backend communication, while enforcing Spring Security and employing MySQL for efficient backend management.
       •	Orchestrated frontend development leveraging React, integrating Tailwind CSS and Material-UI (MUI) for UI design, Redux for state management, and JWT for secure authentication.
