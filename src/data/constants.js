@@ -415,6 +415,29 @@ export const projects = [
     webapp: "https://clothcrafters.vercel.app/",
   },
   {
+    id: 6,
+    title: "Job Portal",
+    date: "April 2024 - May 2024",
+    description:
+      `• Led the creation of extensive frontend and backend components leveraging Python within the resilient Django Web Framework, following the Model-View-Template (MVT) architectural paradigm to ensure organized application design and upkeep.
+      •	Managed the deployment of the application on AWS via EC2 for hosting, employing RDS coupled with Postgres for efficient database administration, and S3 for the storage of static and media files.
+      •	Integrated dynamic content seamlessly using Django Template Language, Bootstrap, and HTML, crafting a responsive and visually captivating user interface to elevate user engagement.
+      `,
+    image: Ecommerce,
+    tags: [
+      "Python",
+      "Django",
+      "AWS EC2",
+      "AWS RDS",
+      "AWS S3",
+      "Bootstrap",
+      "HTML5"
+    ],
+    category: "web app",
+    github: "https://github.com/vinayjagannavar/Job-Portal-Django.git",
+    webapp: "http://3.137.203.198:8000/",
+  },
+  {
     id: 4,
     title: "Crypto Tweet Sentiment Analysis",
     date: "March 2023 - April 2023",
@@ -459,7 +482,7 @@ export const projects = [
   {
     id: 5,
     title: "Stock Price Prediction using GAN and ARIMA",
-    date: "March 2024 - April 2024",
+    date: "February 2024 - March 2024",
     description:
       `• This project analyzes the impact of Twitter sentiments on Google's stock prices using Afinn and Vader for sentiment analysis and integrates predictive modeling techniques, GANs and ARIMA, with Yahoo Finance data to forecast stock trends. The analysis provides insights into how public perceptions influence financial markets, serving as a bridge between social media sentiment and economic indicators.
       `,
