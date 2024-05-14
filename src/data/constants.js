@@ -5,6 +5,7 @@ import CryptoTweet from '../images/CryptoTweet.png'
 import Ecommerce from '../images/Ecommerce.png'
 import FrontEndCertificate from '../images/FrontEndCertificate.png'
 import Django from '../images/Django.png'
+import DjangoJobPortal from '../images/DjangoJobPortal.png'
 
 
 
@@ -423,7 +424,7 @@ export const projects = [
       •	Managed the deployment of the application on AWS via EC2 for hosting, employing RDS coupled with Postgres for efficient database administration, and S3 for the storage of static and media files.
       •	Integrated dynamic content seamlessly using Django Template Language, Bootstrap, and HTML, crafting a responsive and visually captivating user interface to elevate user engagement.
       `,
-    image: Ecommerce,
+    image: DjangoJobPortal,
     tags: [
       "Python",
       "Django",
