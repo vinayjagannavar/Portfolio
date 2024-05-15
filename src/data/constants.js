@@ -274,7 +274,7 @@ export const experiences = [
     img: "https://download.logo.wine/logo/Tech_Mahindra/Tech_Mahindra-Logo.wine.png",
     role: "Full Stack Developer",
     company: "Tech Mahindra Limited",
-    date: "September 2020 - July 2022",
+    date: "September 2019 - July 2022",
     desc: `• Accelerated project delivery by 40% through mastery of Scrum Agile methodologies, while streamlining software development in Azure DevOps, achieving 50% faster development via CI/CD pipelines and enhancing client satisfaction.<br />
 • Engineered an enterprise-focused full stack SIP-trunk solution, eliminating Excel dependency and cutting setup time from weeks to immediate. Optimized network management and automated allocation, augmenting efficiency.<br />
 • Implemented an automation initiative for diagnostic testing on network element predictive alarms, saving network engineers approximately 1000 minutes of manual work daily.<br />
@@ -304,7 +304,7 @@ export const experiences = [
     img: "https://download.logo.wine/logo/Tech_Mahindra/Tech_Mahindra-Logo.wine.png",
     role: "Software Engineer",
     company: "Tech Mahindra Limited",
-    date: "April 2018 - August 2020",
+    date: "April 2018 - August 2019",
     desc: `•	Demonstrated Telecom Domain expertise in Siebel CRM, Fusion Middleware, and Oracle BRM.<br />
     •	Expedited critical flaw resolution in Data Integrity Program during Oracle BRM upgrade with cross-functional team. Recovered 60k post-pay customers and 100k rating products, preventing revenue loss.<br />
     •	Strengthened system stability by troubleshooting and debugging 50K+ failed transactions/orders, enhancing user experience.<br />
