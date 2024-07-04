@@ -338,7 +338,7 @@ export const experiences = [
     role: "Software Developer Intern",
     company: "Krixi Ideas and Technology Solutions Pvt Ltd",
     date: "December 2016 - May 2017",
-    desc: `•	•	Developed a Java-based Android app, featuring scheduling medical appointments, notification reminders, Google Fit for fitness tracking, OAuth 2.0 authentication, and MP Chart for data visualization.<br />
+    desc: `• Developed a Java-based Android app, featuring scheduling medical appointments, notification reminders, Google Fit for fitness tracking, OAuth 2.0 authentication, and MP Chart for data visualization.<br />
     • Orchestrated backend operations with Node.js and Express for RESTful APIs, centralized databases for appointments and prescriptions, and utilized Jenkins for on-premise continuous integration, ensuring scalability and reliability.
     `,
     skills: [
