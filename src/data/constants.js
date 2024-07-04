@@ -20,7 +20,7 @@ export const Bio = {
     "I bring ideas to life with code.  I'm a passionate software developer who thrives on tackling challenges and creating clean, efficient solutions. My love for learning fuels my expertise in new technologies, and I'm constantly seeking ways to craft amazing things. Let's collaborate and build something truly remarkable!",
   github: "https://github.com/vinayjagannavar",
   resume:
-    "https://drive.google.com/file/d/1jjbQGFUDELLSNLV13cXKCXCKPlPx5oLr/view?usp=sharing",
+    "https://drive.google.com/file/d/1GdCQnSoudTsV_1MAM8sLJzaaKaEo9s5Z/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vinay-jagannavar-6a0217124",
   insta: "https://www.instagram.com/vinay_jagannavar/",
   phone: "+13156037616",
@@ -280,22 +280,24 @@ export const experiences = [
     role: "Full-Stack Software Engineer",
     company: "Tech Mahindra Limited",
     date: "September 2019 - July 2022",
-    desc: `• Accelerated project delivery by 40% through mastery of Scrum Agile methodologies, while streamlining software development in Azure DevOps, achieving 50% faster development via CI/CD pipelines and enhancing client satisfaction.<br />
-• Engineered an enterprise-focused full stack SIP-trunk solution, eliminating Excel dependency and cutting setup time from weeks to immediate. Optimized network management and automated allocation, augmenting efficiency.<br />
-• Implemented an automation initiative for diagnostic testing on network element predictive alarms, saving network engineers approximately 1000 minutes of manual work daily.<br />
-• Designed and led the backend development with Python and Django, crafting a scalable codebase, while implementing Angular for the frontend to propel substantial improvements in client interaction metrics.<br />
-• Led the creation of sophisticated SQL databases and highly efficient RESTful APIs, incorporating optimized stored procedures, culminating in a 40% decrease in data processing time and seamless integration capabilities across systems.`,
+    desc: `• Spearheaded full stack development of an enterprise SIP-trunk solution, cutting setup time from 6 weeks to immediate deployment with automated network orchestration using micro-services architecture.<br />
+• Designed scalable RESTful APIs with Spring Boot for trunk configuration management, applying MVC, Design Patterns, and integrating an Angular frontend for responsive design, following SDLC principles.<br />
+• Led integration with network equipment via direct API communication and webhooks, maintaining real-time updates and safeguarding data integrity and access with JWT-based authentication.<br />
+• Optimized SQL Server databases and stored procedures, reducing data processing time by 40%. Managed DBA tasks including Backup and Recovery and User Management to enhance system efficiency.<br />
+• Directed multiple sprints and supervised a team of 4 using Scrum Agile in Azure DevOps, achieving 50% faster test-driven development through CI/CD. Conducted requirement gathering and code reviews to boost client satisfaction.`,
     skills: [
       "Angular",
-      "Python",
-      "Django",
+      "Spring Boot",
+      "Spring MVC",
       "JavaScript",
       "TypeScript",
+      "webhooks",
+      "JWT",
       "HTML5",
       "CSS",
       "Figma",
       "Azure DevOps Services",
-      "SQL",
+      "MS SQL Server",
       "Stored Procedures",
       "PowerShell Scripting",
       "Postman",
@@ -311,11 +313,10 @@ export const experiences = [
     company: "Tech Mahindra Limited",
     date: "April 2018 - August 2019",
     desc: `•	Demonstrated Telecom Domain expertise in Siebel CRM, Fusion Middleware, and Oracle BRM.<br />
-    •	Expedited critical flaw resolution in Data Integrity Program during Oracle BRM upgrade with cross-functional team. Recovered 60k post-pay customers and 100k rating products, preventing revenue loss.<br />
-    •	Strengthened system stability by troubleshooting and debugging 50K+ failed transactions/orders, enhancing user experience.<br />
-    •	Spearheaded automation initiatives with UiPath, resulting in a remarkable 42-hour reduction in manual workload, driving productivity and innovation.<br />
-    •	Deployed NLP and ML-driven ticket assignment with a Decision Tree approach, boosting efficiency and resolution precision.<br />
-    •	Conducted comprehensive Exploratory Data Analysis (EDA) on 20K+ incident reports, providing invaluable insights for data- driven decision-making and process improvement.
+    •	Engineered Teradata ETL to reconcile rating products between Oracle Siebel CRM and BRM, recovering 60k post-pay customers and 400k products through cross-functional team collaboration. Ensured data integrity and averted revenue loss.<br />
+    •	Resolved high-priority incidents with 50K+ failed transactions/orders, ensuring SLA compliance and improving user experience. Provided targeted technical support aligned with customer needs, consistently meeting KPIs.<br />
+    • Applied NLP and Machine Learning to prioritize ticket allocation based on issue descriptions, improving support efficiency.<br />
+    •	Performed comprehensive Exploratory Data Analysis (EDA) on 20K+ incident reports, yielding actionable insights for data- driven decision-making.
     `,
     skills: [
       "Oracle Siebel CRM",
@@ -337,8 +338,8 @@ export const experiences = [
     role: "Software Developer Intern",
     company: "Krixi Ideas and Technology Solutions Pvt Ltd",
     date: "December 2016 - May 2017",
-    desc: `•	Deployed OAuth security protocols, introduced RESTful APIs, and leveraged MP-Chart to craft visually engaging data representations, culminating in a 30% surge in user engagement.<br />
-    •	Integrated Google Fit and Fitbit API using Java to retrieve fitness data, incorporated health goal-setting features, and designed motivational notifications to drive user engagement, resulting in a 30% increase in daily active users.
+    desc: `•	•	Developed a Java-based Android app, featuring scheduling medical appointments, notification reminders, Google Fit for fitness tracking, OAuth 2.0 authentication, and MP Chart for data visualization.<br />
+    • Orchestrated backend operations with Node.js and Express for RESTful APIs, centralized databases for appointments and prescriptions, and utilized Jenkins for on-premise continuous integration, ensuring scalability and reliability.
     `,
     skills: [
       "Java",
