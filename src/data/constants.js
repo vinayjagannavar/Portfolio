@@ -280,9 +280,9 @@ export const experiences = [
     role: "Full-Stack Software Engineer",
     company: "Tech Mahindra Limited",
     date: "September 2019 - July 2022",
-    desc: `• Spearheaded full stack development of an enterprise SIP-trunk solution, cutting setup time from 8 weeks to immediate deployment through micro-services architecture.
-•	Designed RESTful APIs with Spring Boot for trunk configuration, applying MVC design pattern, and integrated Angular components, services, and RxJS for a responsive UI, efficient state management, and lazy loading.
-•	Optimized data processing by 40% with JPA; handled SQL Server tasks including Backup, Recovery, and User Management.
+    desc: `• Spearheaded full stack development of an enterprise SIP-trunk solution, cutting setup time from 8 weeks to immediate deployment through micro-services architecture.<br />
+•	Designed RESTful APIs with Spring Boot for trunk configuration, applying MVC design pattern, and integrated Angular components, services, and RxJS for a responsive UI, efficient state management, and lazy loading.<br />
+•	Optimized data processing by 40% with JPA; handled SQL Server tasks including Backup, Recovery, and User Management.<br />
 •	Directed multiple sprints and supervised a team of 4 using Scrum Agile in Azure DevOps, achieving 50% faster test-driven development through CI/CD. Conducted requirement gathering and code reviews to boost client satisfaction.`,
     skills: [
       "Angular",
@@ -311,9 +311,9 @@ export const experiences = [
     role: "Software Engineer",
     company: "Tech Mahindra Limited",
     date: "April 2018 - August 2019",
-    desc: `• Engineered Teradata ETL to reconcile rating products between Oracle Siebel CRM and BRM, recovering 60k post-pay customers and 400k products through cross-functional team collaboration. Ensured data integrity and averted revenue loss.
-•	Resolved 50K+ failed transactions/orders using Splunk for real-time log analysis and complex SQL queries to locate and analyze database logs, ensuring SLA compliance. Provided targeted technical support, consistently meeting KPIs.
-•	Applied NLP and Machine Learning to prioritize ticket allocation based on issue descriptions, reducing resolution time by 30%.
+    desc: `• Engineered Teradata ETL to reconcile rating products between Oracle Siebel CRM and BRM, recovering 60k post-pay customers and 400k products through cross-functional team collaboration. Ensured data integrity and averted revenue loss.<br />
+•	Resolved 50K+ failed transactions/orders using Splunk for real-time log analysis and complex SQL queries to locate and analyze database logs, ensuring SLA compliance. Provided targeted technical support, consistently meeting KPIs.<br />
+•	Applied NLP and Machine Learning to prioritize ticket allocation based on issue descriptions, reducing resolution time by 30%.<br />
 •	Performed comprehensive Exploratory Data Analysis (EDA) on 20K+ incident reports, yielding actionable insights for data-driven decision-making.`,
     skills: [
       "Oracle Siebel CRM",
@@ -335,8 +335,9 @@ export const experiences = [
     role: "Software Developer Intern",
     company: "Krixi Ideas and Technology Solutions Pvt Ltd",
     date: "April 2017 - March 2018",
-    desc: `• Developed a Java-based Android app, featuring scheduling medical appointments, notification reminders, Google Fit for fitness tracking, OAuth 2.0 authentication, and MP Chart for data visualization.
-•	Orchestrated backend operations with Node.js and Express for RESTful APIs, centralized databases for appointments and prescriptions, and leveraged Gradle for build automation with Jenkins for CI, ensuring scalability and reliability.`,
+    desc: `• Developed a Java-based Android app, featuring scheduling medical appointments, notification reminders, Google Fit for fitness tracking, OAuth 2.0 authentication, and MP Chart for data visualization.<br />
+    •	Orchestrated backend operations with Node.js and Express for RESTful APIs, centralized databases for appointments and prescriptions, and leveraged Gradle for build automation with Jenkins for CI, ensuring scalability and reliability.
+    `,
     skills: [
       "Java",
       "Kotlin",
