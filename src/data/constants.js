@@ -20,7 +20,7 @@ export const Bio = {
     "I bring ideas to life with code.  I'm a passionate software developer who thrives on tackling challenges and creating clean, efficient solutions. My love for learning fuels my expertise in new technologies, and I'm constantly seeking ways to craft amazing things. Let's collaborate and build something truly remarkable!",
   github: "https://github.com/vinayjagannavar",
   resume:
-    "https://drive.google.com/file/d/1GdCQnSoudTsV_1MAM8sLJzaaKaEo9s5Z/view?usp=sharing",
+    "https://drive.google.com/file/d/1AZQdGsxzbPT5cwIq_jYO9aN6heZ0rW0N/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vinay-jagannavar-6a0217124",
   insta: "https://www.instagram.com/vinay_jagannavar/",
   phone: "+13156037616",
