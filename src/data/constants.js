@@ -412,7 +412,7 @@ export const projects = [
       • Embedded OpenAI GPT API for smart document features like content generation, summarization, and contextual Q&A.`,
     image: NotionAIImage,
     tags: [
-      "ReactJS",https://github.com/vinayjagannavar/notion-clone-cloudflare-backend
+      "ReactJS",
       "NextJS",
       "JavaScript(ES6+)",
       "Hono",
