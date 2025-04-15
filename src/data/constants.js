@@ -6,21 +6,21 @@ import Ecommerce from '../images/Ecommerce.png'
 import FrontEndCertificate from '../images/FrontEndCertificate.png'
 import Django from '../images/Django.png'
 import DjangoJobPortal from '../images/DjangoJobPortal.png'
-
-
+import NotionAIImage from '../images/NotionAI.png'
 
 export const Bio = {
   name: "Vinay Jagannavar",
   roles: [
     "Full Stack Developer",
-    "Android Developer",
+    "Backend Developer",
+    "Frontend Developer",
     "Data Scientist"
   ],
   description:
     "I bring ideas to life with code.  I'm a passionate software developer who thrives on tackling challenges and creating clean, efficient solutions. My love for learning fuels my expertise in new technologies, and I'm constantly seeking ways to craft amazing things. Let's collaborate and build something truly remarkable!",
   github: "https://github.com/vinayjagannavar",
   resume:
-    "https://drive.google.com/file/d/1eybNIk_wt18xQx52HrgS5PkfTFvlCh5b/view?usp=sharing",
+    "https://drive.google.com/file/d/1ur3fuzWvHjk6q3e5C9ZLmEw35gtNt0dw/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/vinay-jagannavar-6a0217124",
   insta: "https://www.instagram.com/vinay_jagannavar/",
   phone: "+13156037616",
@@ -32,7 +32,7 @@ export const skills = [
     title: "Frontend",
     skills: [
       {
-        name: "React Js",
+        name: "ReactJs",
         image:
           "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9Ii0xMS41IC0xMC4yMzE3NCAyMyAyMC40NjM0OCI+CiAgPHRpdGxlPlJlYWN0IExvZ288L3RpdGxlPgogIDxjaXJjbGUgY3g9IjAiIGN5PSIwIiByPSIyLjA1IiBmaWxsPSIjNjFkYWZiIi8+CiAgPGcgc3Ryb2tlPSIjNjFkYWZiIiBzdHJva2Utd2lkdGg9IjEiIGZpbGw9Im5vbmUiPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIi8+CiAgICA8ZWxsaXBzZSByeD0iMTEiIHJ5PSI0LjIiIHRyYW5zZm9ybT0icm90YXRlKDYwKSIvPgogICAgPGVsbGlwc2Ugcng9IjExIiByeT0iNC4yIiB0cmFuc2Zvcm09InJvdGF0ZSgxMjApIi8+CiAgPC9nPgo8L3N2Zz4K",
       },
@@ -280,8 +280,9 @@ export const experiences = [
     role: "Full-Stack Developer Intern",
     company: "Syracuse University - Engineering and Computer Science Department",
     date: "July 2024 - Present",
-    desc: `I am currently focused on developing secure and scalable financial solutions using Node.js and Express.js, which optimize transaction workflows and data processing. I design RESTful services and microservices for seamless integration, while crafting responsive React interfaces with Redux and Bootstrap to enhance user experiences in online banking. Utilizing MongoDB and Mongoose, I efficiently manage high-volume databases and lead automated testing efforts with Jest. I also streamline development processes with npm and Webpack, and employ WebSocket and GraphQL for real-time communication, achieving a 30% reduction in response times for improved financial operations.`,
+    desc: `I am currently focused on developing secure and scalable financial solutions using ReactJS, Node.js and Express.js, which optimize transaction workflows and data processing. I design RESTful services and microservices for seamless integration, while crafting responsive React interfaces with Redux and Bootstrap to enhance user experiences in online banking. Utilizing MongoDB and Mongoose, I efficiently manage high-volume databases and lead automated testing efforts with Jest. I also streamline development processes with npm and Webpack, and employ WebSocket and GraphQL for real-time communication, achieving a 30% reduction in response times for improved financial operations.`,
     skills: [
+      "Next.js",
       "Node.js",
       "Express.js",
       "React",
@@ -400,26 +401,31 @@ export const education = [
 export const projects = [
   {
     id: 3,
-    title: "Little Lemon Website",
-    date: "Mar 2024",
+    title: "AI-Powered Notion Clone",
+    date: "Mar 2025",
     description:
-      `• Developed the 'Reserve a Table' feature for the Little Lemon Website using React, effectively managing state with hooks such as useState. 
-      • Implemented advanced form handling methods, including controlled and uncontrolled components, alongside the useRef hook, to optimize the booking process.
-      • Performed thorough unit testing with Jest, guaranteeing the functionality and dependability of components.`,
-    image: LittleLemon,
+      `• Built with React (Next.js) and TypeScript for a performant frontend.
+      • Integrated Clerk for authentication and Firebase for real-time data storage.
+      • Enabled real-time collaboration using Liveblocks.
+      • Used Cloudflare Workers to manage backend logic via serverless architecture.
+      • Designed modern, responsive UI with Shadcn/UI.
+      • Embedded OpenAI GPT API for smart document features like content generation, summarization, and contextual Q&A.`,
+    image: NotionAIImage,
     tags: [
-      "React JS",
+      "ReactJS",https://github.com/vinayjagannavar/notion-clone-cloudflare-backend
+      "NextJS",
       "JavaScript(ES6+)",
-      "HTML5",
-      "CSS",
-      "Jest",
-      "Git",
-      "Figma",
-      "API"
+      "Hono",
+      "Cloudflare Worker",
+      "LiveBlocks",
+      "Shadcn",
+      "OpenAI API",
+      "Vercel",
+      "Tailwind CSS"
     ],
     category: "web app",
-    github: "https://github.com/vinayjagannavar/LittleLemon",
-    webapp: "https://github.com/vinayjagannavar/LittleLemon",
+    github: "https://github.com/vinayjagannavar/Notion-clone-AI-frontend",
+    webapp: "https://github.com/vinayjagannavar/notion-clone-cloudflare-backend",
   },
   {
     id: 0,
@@ -469,18 +475,6 @@ export const projects = [
     webapp: "http://3.137.203.198:8000/",
   },
   {
-    id: 4,
-    title: "Crypto Tweet Sentiment Analysis",
-    date: "March 2023 - April 2023",
-    description:
-      "Extracted actionable cryptocurrency market insights through large-scale NLP analysis (preprocessing, tokenization) of over 100k tweets, incorporating BERT models (FinBERT & CryptoBERT) for accurate sentiment classification.",
-    image: CryptoTweet,
-    tags: ["Python", "NLP", "Pandas", "Numpy", "TensorFlow", "Keras","Seaborn"],
-    category: "machine learning",
-    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
-    webapp: "https://brain-tumor.netlify.app/",
-  },
-  {
     id: 1,
     title: "BillBuddy",
     date: "September 2023 - December 2023",
@@ -494,6 +488,41 @@ export const projects = [
     category: "android app",
     github: "https://github.com/vinayjagannavar/BillBuddy",
     webapp: "https://github.com/vinayjagannavar/BillBuddy",
+  },
+  {
+    id: 7,
+    title: "Little Lemon Website",
+    date: "Mar 2024",
+    description:
+      `• Developed the 'Reserve a Table' feature for the Little Lemon Website using React, effectively managing state with hooks such as useState. 
+      • Implemented advanced form handling methods, including controlled and uncontrolled components, alongside the useRef hook, to optimize the booking process.
+      • Performed thorough unit testing with Jest, guaranteeing the functionality and dependability of components.`,
+    image: LittleLemon,
+    tags: [
+      "React JS",
+      "JavaScript(ES6+)",
+      "HTML5",
+      "CSS",
+      "Jest",
+      "Git",
+      "Figma",
+      "API"
+    ],
+    category: "web app",
+    github: "https://github.com/vinayjagannavar/LittleLemon",
+    webapp: "https://github.com/vinayjagannavar/LittleLemon",
+  },
+  {
+    id: 4,
+    title: "Crypto Tweet Sentiment Analysis",
+    date: "March 2023 - April 2023",
+    description:
+      "Extracted actionable cryptocurrency market insights through large-scale NLP analysis (preprocessing, tokenization) of over 100k tweets, incorporating BERT models (FinBERT & CryptoBERT) for accurate sentiment classification.",
+    image: CryptoTweet,
+    tags: ["Python", "NLP", "Pandas", "Numpy", "TensorFlow", "Keras","Seaborn"],
+    category: "machine learning",
+    github: "https://github.com/rishavchanda/Brain-Tumor-Detection",
+    webapp: "https://brain-tumor.netlify.app/",
   },
   {
     id: 2,
